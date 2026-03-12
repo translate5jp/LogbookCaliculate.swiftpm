@@ -1,11 +1,10 @@
-// swift-tools-version: 5.9
-
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
     name: "LogbookCaliculate",
     platforms: [
-        .iOS(.v17)
+        .iOS("16.0")
     ],
     products: [
         .iOSApplication(
