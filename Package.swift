@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "LogbookCaliculate",
     platforms: [
-        .iOS("16.0")
+        .iOS("18.1")
     ],
     products: [
         .iOSApplication(
